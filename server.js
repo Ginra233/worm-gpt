@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // ===== CONFIGURASI =====
-const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || 'default_key_bangsat';
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || 'sk-438e5bd7d72e452ba67f0e64e429ffa8';
 const PORT = process.env.PORT || 3000;
 
 // ===== RATE LIMITING SEDERHANA =====
